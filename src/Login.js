@@ -7,6 +7,7 @@ function Login(){
 
   return (
     <div className={styles.logmain}>
+      <div className={styles.box}>
       <div className={styles.emain}>
        <div className={styles.etext}>Email </div>
        <input type="text" onChange={(e)=>setEmail(e.target.value)}/>
@@ -18,6 +19,7 @@ function Login(){
     <button>Login</button>
     <div className={styles.text}>Back</div>
     <div className={styles.new}> Create-New-Account</div>
+    </div>
     </div>
   )
 }
