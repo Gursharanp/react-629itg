@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+}
+
+html,body{
+  height: 100%;
+  background-color: red;
+}
+.header{
+  height: 60px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.Login{
+  outline:1px solid black ;
+  padding: 5px;
+}
+
+.Sign-In{
+  outline:1px solid black ;
+  padding: 5px;
+}
+
+.content{
+  padding-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
